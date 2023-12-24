@@ -73,7 +73,7 @@ def s_z(text: str, token: str = Depends(verification_token)):
     )
 
 
-#прочитать заметку
+#чтение заметки
 @api_router.get("/",response_model=TextZametki)
 def read_note(id: str, token: str = Depends(verification_token)):
     note = polu4_zam()
