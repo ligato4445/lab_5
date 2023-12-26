@@ -2,7 +2,6 @@ import requests
 
 
 def main_cycle():
-    #x = int(input("Введите число запросов, которое вы хотите сделать"))
     while (True):
         command = [i for i in input("Введите запрос:\n").split()]
         response = ""
